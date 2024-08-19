@@ -11,7 +11,7 @@ body {
    
 }
 header {
-    background-image: linear-gradient(rgba(70, 86, 39, 0.5), rgba(70, 86, 39, 0.5)), url(../images/emblemngu.png);
+    background-image: linear-gradient(rgba(70, 86, 39, 0.7), rgba(70, 86, 39, 0.7)), url(../images/emblemngu.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top center;
