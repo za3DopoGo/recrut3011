@@ -26,7 +26,7 @@ h1 {
     max-width: 100%;
 }
 h2 {
-    margin: 0 auto;
+    margin: 10px auto;
     font-family: Volja;
     font-weight: normal;
     font-size: 20px;
@@ -39,15 +39,54 @@ h2 {
 .with-link {
     margin: 0;
     text-align: center;
+    /* transition: font-weight 0.7s ease; */
+}
+.with-link:hover{
+    /* font-weight: bold; */
 }
 .losung {
+
 }
 .in-losung{
     text-decoration: none;
-    color: rgb(214, 60, 60);
+    color: rgb(190, 46, 46);
+    font-weight: normal;
+    transition: font-weight 0.3s ease-out;
 }
-.in-losung:active, .in-losung:hover,
-.in-losung:visited {
+.in-losung:active, .in-losung:hover {
     text-decoration: none;
     color: rgb(214, 60, 60);
+    font-weight: bold;
+}
+.our-prop{
+    padding: 10px 0;
+}
+.our-prop-text {
+    text-align: justify;
+}
+.with-star::before {
+    content:"▄▀▄  ▀▄▀  ▄▀▄  ▀▄▀";
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.button-link {
+    
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+  
+}
+.with-button-link {
+    width: 120px;
+    word-wrap: break-word;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow:  2px 2px 3px;
+}
+.with-button-link:hover {
+    box-shadow:  -2px -2px 3px;
 }
