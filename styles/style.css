@@ -98,3 +98,8 @@ h1 {
 .response {
     margin: 0 0 15px 0;
 }
+.vacation {
+    max-height: 150px;
+    overflow: auto;
+    margin-bottom: 15px;
+}
